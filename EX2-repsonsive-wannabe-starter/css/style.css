@@ -41,6 +41,11 @@ img {
     max-width: 100%;
 }
 
+@media screen and (max-width: 480;) {
+
+
+}
+
 /************************************************
     UTILITIES
  ************************************************/
@@ -65,6 +70,7 @@ img {
 .text-center {
     text-align: center;
 }
+
 
 /************************************************
     SITE SECTIONS
@@ -127,3 +133,19 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ 
+@media screen and (max-width: 480px) {
+    .container {
+        /* max-width: 480px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
